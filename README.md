@@ -4,35 +4,35 @@
 
 bash
 # Базовая команда (работает если ветка отслеживает удалённый репозиторий)
-git pull
+##git pull
 
 # Явное указание репозитория и ветки
-git pull origin main
+##git pull origin main
 
 # С rebase вместо merge (сохраняет историю чище)
-git pull --rebase origin main
+##git pull --rebase origin main
 Пример использования:
 
 bash
 # Перед началом работы всегда делайте pull
-git pull origin main
+##git pull origin main
 2. git push
 Назначение: Отправить локальные коммиты в удалённый репозиторий.
 
 bash
 # Первый push для новой ветки (с установкой отслеживания)
-git push -u origin feature-branch
+##git push -u origin feature-branch
 
 # Последующие push в ту же ветку
-git push
+##git push
 
 # Push в конкретную ветку
-git push origin main
+##git push origin main
 Пример workflow:
 
 bash
 # Создаём новую ветку для фичи
-git checkout -b new-feature
+##git checkout -b new-feature
 
 # Делаем изменения, коммитим
 git add .
